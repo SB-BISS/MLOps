@@ -1,3 +1,23 @@
+# Experiments in Automated Testing with Codellama.
+
+In this repository, I decided to take up an existing simple MLOPs project form github in order to illustrate
+how CodeLLama can be used to automatically generate unit tests. The code below explains 
+a typical MLOPs flow for continuous integration and testing. 
+
+Studying Docker and how to package a system to follow this cycle is beyond the scope of the Software Engineering and AI course,
+in this tutorial we look into how to generate tests for an existing project using LLKMs.
+
+A part that is normally really difficult in a machine learning project is to produce tests that would allow to check
+the behaviour of the system under many circumstances. 
+Also one can think about a test, but then it has to be translated into code. The whole process is **boringly important**, 
+so a data scientist would try to avoid it to focus on modeling, the software engineer would test the flask application input output,
+and that would create something that put in production, crashes after asking the wrong question to the machine learning model.
+
+Let's see how AI can come to rescue.
+
+
+# Original code:
+
 [![MLOps with Python application](https://github.com/EzioDEVio/MLOps/actions/workflows/main.yml/badge.svg)](https://github.com/EzioDEVio/MLOps/actions/workflows/main.yml)   [![Build and Push Docker image to Github Container Registry](https://github.com/EzioDEVio/MLOps/actions/workflows/GHCR.yml/badge.svg)](https://github.com/EzioDEVio/MLOps/actions/workflows/GHCR.yml)
 ![Stars](https://img.shields.io/github/stars/EzioDEVio/MLOps?style=social)
 ![MIT License](https://img.shields.io/github/license/EzioDEVio/MLOps)
@@ -139,3 +159,4 @@ MIT.
 
 
 .
+
