@@ -15,6 +15,8 @@ and that would create something that put in production, crashes after asking the
 
 Let's see how AI can come to rescue.
 
+For the purpose of this tutorial we will use codellama-13b-python in LM studio.
+
 
 # Original code:
 
@@ -159,4 +161,5 @@ MIT.
 
 
 .
+
 
